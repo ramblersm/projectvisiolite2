@@ -3,7 +3,7 @@
              x:Class="visiolite1.NewLandingPage">
   <ContentPage.Content>
     <StackLayout BackgroundColor="Teal" Padding="50,50,50,50">
-      <StackLayout >
+      <StackLayout>
         <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center">       
           <Label.FormattedText>
             <FormattedString>

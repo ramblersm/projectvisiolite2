@@ -36,6 +36,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="Connections.cs" />
+    <Compile Include="Credentials.cs" />
     <Compile Include="LandingPage.cs" />
     <Compile Include="NewLandingPage.xaml.cs">
       <DependentUpon>NewLandingPage.xaml</DependentUpon>

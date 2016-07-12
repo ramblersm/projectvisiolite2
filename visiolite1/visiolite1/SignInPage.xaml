@@ -3,9 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="visiolite1.SignInPage">
   <ContentPage.Content>
-    <StackLayout BackgroundColor="White" Padding="">
+    <StackLayout BackgroundColor="White" Padding="0,10,0,0">
       <StackLayout>
-        
+        <Label Text ="Enter your Microsoft Credentials" TextColor="Blue" FontSize="Medium"/>
+      </StackLayout>
+    <StackLayout>
+       <Entry x:Name="userName" IsVisible="True" Placeholder="domain/username" PlaceholderColor="Gray" TextColor="Black"/>
+      <Entry x:Name="userPassword" IsPassword="True" Placeholder="password" PlaceholderColor="Gray" TextColor="Black"/>
+    </StackLayout>
+    <StackLayout>
+        <Button x:Name="credentialsSubmitButton" Text="Submit" Clicked="submitCredentials" TextColor="White" FontSize="Small" BackgroundColor="Teal"/>
       </StackLayout>
     </StackLayout>
   </ContentPage.Content>

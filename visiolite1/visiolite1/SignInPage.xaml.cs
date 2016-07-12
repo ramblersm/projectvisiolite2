@@ -13,15 +13,15 @@ namespace visiolite1
         public SignInPage()
         {
             InitializeComponent();
+            credentialsSubmitButton.Clicked += submitCredentials;
+            //Set the default binding to a default object for now
+            this.BindingContext = new Credentials();
+        }
 
-            Content = new Label
-            {
-                Text = "Please enter your Microsoft Credentials", //todo:- put at top left of the page
-                                                                  //todo:- add username and password fields
-
-            };
-
-            Padding = new Thickness(0, 20, 0, 0);
+        private void submitCredentials(object sender, EventArgs e)
+        {
+           //todo-call method from a different class where credentials validation will take place
+            throw new NotImplementedException();
         }
     }
 }
