@@ -3,5 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="visiolite1.SignInPage">
   <ContentPage.Content>
+    <StackLayout BackgroundColor="White" Padding="">
+      <StackLayout>
+        
+      </StackLayout>
+    </StackLayout>
   </ContentPage.Content>
 </ContentPage>

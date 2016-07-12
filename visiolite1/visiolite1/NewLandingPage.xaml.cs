@@ -19,8 +19,10 @@ namespace visiolite1
         }
 
                 async void tapToContinue (object sender, EventArgs args)
-            { 
-                      await Navigation.PushModalAsync(new SignInPage());
+            {
+                      
+                     await Navigation.PushModalAsync(new SignInPage());
+                      //todo- handle backward navigation
                   }
         
 }
